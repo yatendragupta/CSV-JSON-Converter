@@ -1,0 +1,22 @@
+2021-10-25 07:56:42,150 DEBUG init Start Logging ###########
+2021-10-25 07:56:42,150 INFO getLevelCount Total no of columns in CSV file: 20
+2021-10-25 07:56:42,150 INFO getLevelCount Total count of levels in CSV file: 6
+2021-10-25 07:56:42,150 INFO convertToJson Created objects from all levels and now starting the logic of stitching them
+2021-10-25 07:56:42,150 INFO convertToJson *************Level: 5
+2021-10-25 07:56:42,150 INFO convertToJson *************Level: 4
+2021-10-25 07:56:42,150 INFO convertToJson *************Level: 3
+2021-10-25 07:56:42,150 INFO convertToJson -------- ParentID: 178975, Own ID: 123456
+2021-10-25 07:56:42,150 INFO convertToJson {'label': 'Dairy', 'id': '123456', 'link': 'https://testabc.com/browse/178974/178969/178975/123456', 'children': []}
+2021-10-25 07:56:42,150 INFO convertToJson *************Level: 2
+2021-10-25 07:56:42,150 INFO convertToJson -------- ParentID: 178969, Own ID: 178975
+2021-10-25 07:56:42,150 INFO convertToJson {'label': 'CHEESE', 'id': '178975', 'link': 'https://testabc.com/browse/178974/178969/178975', 'children': [{'label': 'Dairy', 'id': '123456', 'link': 'https://testabc.com/browse/178974/178969/178975/123456', 'children': []}]}
+2021-10-25 07:56:42,150 INFO convertToJson -------- ParentID: 178969, Own ID: 178976
+2021-10-25 07:56:42,150 INFO convertToJson {'label': 'COOKED MEAT & ANTIPASTI', 'id': '178976', 'link': 'https://testabc.com/browse/178974/178969/178976', 'children': []}
+2021-10-25 07:56:42,150 INFO convertToJson *************Level: 1
+2021-10-25 07:56:42,150 INFO convertToJson -------- ParentID: 178974, Own ID: 178969
+2021-10-25 07:56:42,150 INFO convertToJson {'label': 'FRESH', 'id': '178969', 'link': 'https://testabc.com/browse/178974/178969', 'children': [{'label': 'CHEESE', 'id': '178975', 'link': 'https://testabc.com/browse/178974/178969/178975', 'children': [{'label': 'Dairy', 'id': '123456', 'link': 'https://testabc.com/browse/178974/178969/178975/123456', 'children': []}]}, {'label': 'COOKED MEAT & ANTIPASTI', 'id': '178976', 'link': 'https://testabc.com/browse/178974/178969/178976', 'children': []}]}
+2021-10-25 07:56:42,150 INFO convertToJson *************Level: 0
+2021-10-25 07:56:42,150 INFO convertToJson -------- ParentID: 0, Own ID: 178974
+2021-10-25 07:56:42,150 INFO convertToJson {'label': 'THE BEST', 'id': '178974', 'link': 'https://testabc.com/browse/178974', 'children': [{'label': 'FRESH', 'id': '178969', 'link': 'https://testabc.com/browse/178974/178969', 'children': [{'label': 'CHEESE', 'id': '178975', 'link': 'https://testabc.com/browse/178974/178969/178975', 'children': [{'label': 'Dairy', 'id': '123456', 'link': 'https://testabc.com/browse/178974/178969/178975/123456', 'children': []}]}, {'label': 'COOKED MEAT & ANTIPASTI', 'id': '178976', 'link': 'https://testabc.com/browse/178974/178969/178976', 'children': []}]}]}
+2021-10-25 07:56:42,150 INFO convertToJson Final Dictionary created after stitching all its children --
+2021-10-25 07:56:42,150 INFO convertToJson Creating JSON from this dictionary
